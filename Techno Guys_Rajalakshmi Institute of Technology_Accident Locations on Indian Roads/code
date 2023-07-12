@@ -46,4 +46,5 @@ check_button.pack()
 # Create status label
 status_label = tk.Label(window, text="Status:")
 status_label.pack()
- 
+# Start the GUI event loop
+window.mainloop() 
